@@ -1,0 +1,20 @@
+{
+  "name": "@oit/eslint-config",
+  "version": "0.1.0",
+  "private": true,
+  "description": "eslint config of the OIT",
+  "author": "qiuxu <inlinger@outlook.com>",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint . --fix",
+    "release": "bumpp package.json packages/*/package.json --no-push && pnpm -r publish"
+  },
+  "publishConfig": {
+    "registry": "http://192.168.9.16:4873/"
+  },
+  "devDependencies": {
+    "@oit/eslint-config": "workspace:*",
+    "bumpp": "^8.2.1",
+    "eslint": "^8.19.0"
+  }
+}
