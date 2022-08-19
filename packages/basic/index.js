@@ -159,7 +159,7 @@ module.exports = {
     'comma-dangle': ['error', 'always-multiline'],
     'no-constant-condition': 'warn',
     'no-debugger': throwError,
-    'no-console': [throwError, { allow: ['warn', 'error'] }],
+    'no-console': [throwError, { allow: ['warn', 'error', 'info'] }],
     'no-cond-assign': ['error', 'always'],
     'func-call-spacing': ['off', 'never'],
     'key-spacing': ['error', { beforeColon: false, afterColon: true }],
