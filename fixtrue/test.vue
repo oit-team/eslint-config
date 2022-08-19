@@ -1,3 +1,10 @@
+<template>
+  <div>
+    <span>123</span>
+    <span>{{ test }}</span>
+  </div>
+</template>
+
 <script>
 export default {
   name: 'Test',
@@ -7,13 +14,6 @@ export default {
   }),
 }
 </script>
-
-<template>
-  <div>
-    <span>123</span>
-    <span>{{ test }}</span>
-  </div>
-</template>
 
 <style>
 </style>
