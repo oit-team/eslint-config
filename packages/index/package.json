@@ -1,7 +1,7 @@
 {
   "name": "@oit/eslint-config",
   "version": "0.3.3",
-  "author": "qiuxu <inlinger@outlook.com>",
+  "author": "qiuxu <uxuip@outlook.com>",
   "license": "MIT",
   "main": "index.js",
   "peerDependencies": {

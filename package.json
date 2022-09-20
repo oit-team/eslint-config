@@ -3,7 +3,7 @@
   "version": "0.3.3",
   "private": true,
   "description": "eslint config of the OIT",
-  "author": "qiuxu <inlinger@outlook.com>",
+  "author": "qiuxu <uxuip@outlook.com>",
   "license": "MIT",
   "scripts": {
     "lint": "eslint . --fix",
