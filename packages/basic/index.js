@@ -166,7 +166,6 @@ module.exports = {
     'indent': ['error', 2, { SwitchCase: 1, VariableDeclarator: 1, outerIIFEBody: 1 }],
     'no-restricted-syntax': [
       'error',
-      'DebuggerStatement',
       'LabeledStatement',
       'WithStatement',
     ],
