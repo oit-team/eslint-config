@@ -13,8 +13,9 @@
     "registry": "http://192.168.9.16:4873/"
   },
   "devDependencies": {
-    "@oit/eslint-config": "workspace:*",
+    "@oit/eslint-config-vue-ts": "workspace:*",
     "bumpp": "^8.2.1",
-    "eslint": "^8.19.0"
+    "eslint": "^8.19.0",
+    "typescript": "^4.8.4"
   }
 }

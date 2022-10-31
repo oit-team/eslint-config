@@ -1,0 +1,19 @@
+{
+  "name": "@oit/eslint-config-ts",
+  "version": "0.3.6",
+  "author": "qiuxu <uxuip@outlook.com>",
+  "license": "MIT",
+  "main": "index.js",
+  "peerDependencies": {
+    "eslint": ">=7.4.0",
+    "typescript": ">=3.9"
+  },
+  "dependencies": {
+    "@oit/eslint-config-basic": "workspace:*",
+    "@typescript-eslint/eslint-plugin": "^5.36.1",
+    "@typescript-eslint/parser": "^5.36.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.19.0"
+  }
+}

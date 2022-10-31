@@ -1,3 +1,3 @@
 module.exports = {
-  extends: '@oit',
+  extends: '@oit/vue-ts',
 }
