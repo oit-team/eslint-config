@@ -3,21 +3,11 @@ module.exports = {
     'plugin:vue/recommended',
     '@oit/eslint-config-ts',
   ],
-  overrides: [
-    {
-      files: ['*.vue'],
-      parser: 'vue-eslint-parser',
-      parserOptions: {
-        parser: '@typescript-eslint/parser',
-      },
-      rules: {
-        'no-unused-vars': 'off',
-        'no-undef': 'warn',
-        '@typescript-eslint/no-unused-vars': 'warn',
-      },
-    },
-  ],
   rules: {
+    'no-unused-vars': 'off',
+    'no-undef': 'warn',
+    '@typescript-eslint/no-unused-vars': 'warn',
+
     'vue/max-attributes-per-line': 'off',
     'vue/no-v-html': 'off',
     'vue/require-prop-types': 'off',
