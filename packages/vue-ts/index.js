@@ -3,6 +3,16 @@ module.exports = {
     'plugin:vue/recommended',
     '@oit/eslint-config-ts',
   ],
+  overrides: [
+    {
+      files: ['*.vue'],
+      parser: 'vue-eslint-parser',
+      parserOptions: {
+        parser: '@typescript-eslint/parser',
+      },
+      rules: {},
+    },
+  ],
   rules: {
     'no-unused-vars': 'off',
     'no-undef': 'warn',
