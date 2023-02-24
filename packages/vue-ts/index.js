@@ -17,6 +17,8 @@ module.exports = {
     'no-unused-vars': 'off',
     'no-undef': 'warn',
     '@typescript-eslint/no-unused-vars': 'warn',
+    '@typescript-eslint/prefer-ts-expect-error': 'off',
+    '@typescript-eslint/ban-ts-comment': 'off',
 
     'vue/max-attributes-per-line': 'off',
     'vue/no-v-html': 'off',
