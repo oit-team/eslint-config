@@ -15,7 +15,7 @@ module.exports = {
   ],
   rules: {
     'no-unused-vars': 'off',
-    'no-undef': 'warn',
+    'no-undef': 'off',
     '@typescript-eslint/no-unused-vars': 'warn',
     '@typescript-eslint/prefer-ts-expect-error': 'off',
     '@typescript-eslint/ban-ts-comment': 'off',
