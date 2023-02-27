@@ -1,6 +1,6 @@
 {
   "name": "@oit/eslint-config",
-  "version": "0.4.6",
+  "version": "0.4.7",
   "private": true,
   "description": "eslint config of the OIT",
   "author": "qiuxu <uxuip@outlook.com>",

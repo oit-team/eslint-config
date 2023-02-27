@@ -1,6 +1,6 @@
 {
   "name": "@oit/eslint-config",
-  "version": "0.4.6",
+  "version": "0.4.7",
   "author": "qiuxu <uxuip@outlook.com>",
   "license": "MIT",
   "main": "index.js",
